@@ -1,0 +1,62 @@
+.text-image {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-shadow:
+    0 0 10px #FFFFFF,
+    0 0 20px #FFFFFF,
+    0 0 30px #FFFFFF,
+    0 0 40px #FF00DE,
+    0 0 70px #FF00DE,
+    0 0 80px #FF00DE,
+    0 0 100px #FF00DE,
+    0 0 150px #FF00DE;
+  text-align: center;
+   }
+.life{
+    background: linear-gradient(to right, rgb(0, 1, 5), rgb(15, 4, 73), rgb(56, 19, 114), rgb(111, 31, 148), rgb(159, 72, 180));
+}
+.rocket{
+    color: black;
+    font-size: 25px;
+    text-align:center;
+     cursor: pointer;
+}
+#lol {
+    position: fixed;
+}
+.flower{
+        font-size: 100px;  
+        position: absolute
+}
+#container {
+    width: 500px;
+    margin: auto;
+  }
+p {
+    text-align: center;
+    font-size: 100px;
+    margin: 20px 0 20px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  p:nth-child(1) a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+  p:nth-child(1) a:hover {
+    color: rgb(239, 81, 245);
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+  }
